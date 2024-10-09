@@ -1,0 +1,45 @@
+.fun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: lightsalmon;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    width: 260px;
+    margin-bottom: 100px;
+}
+
+.funFact h1 {
+    text-align: center;
+    color: #ffd700;
+}
+
+.funFlex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0px 100px;
+    margin-bottom: 50px;
+}
+
+.fun {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.fun:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 17px #ffd700;
+}
+
+@media screen and (max-width: 480px) {
+    .funFact {
+        display: none;
+    }
+}
